@@ -24,26 +24,11 @@
   </projectFiles>
 
   <issueHandlers>
-    <InternalMethod>
-      <errorLevel type="suppress">
-        <referencedMethod name="Twig\Template::displayBlock" />
-        <referencedMethod name="Twig\Template::getBlocks" />
-        <referencedMethod name="Twig\Template::getParent" />
-        <referencedMethod name="Twig\TemplateWrapper::unwrap" />
-      </errorLevel>
-    </InternalMethod>
-
     <PossiblyUnusedMethod>
       <errorLevel type="suppress">
         <directory name="src" />
       </errorLevel>
     </PossiblyUnusedMethod>
-
-    <UnusedReturnValue>
-      <errorLevel type="suppress">
-        <directory name="src" />
-      </errorLevel>
-    </UnusedReturnValue>
 
     <UnusedClass>
       <errorLevel type="suppress">
