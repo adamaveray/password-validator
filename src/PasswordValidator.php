@@ -10,9 +10,7 @@ readonly class PasswordValidator implements PasswordValidatorInterface
    * @param array<string, string|int> $options Options for the provided algorithm.
    * @see https://secure.php.net/manual/en/password.constants.php
    */
-  public function __construct(private string $algorithm = \PASSWORD_DEFAULT, private array $options = [])
-  {
-  }
+  public function __construct(private string $algorithm = \PASSWORD_DEFAULT, private array $options = []) {}
 
   public function hash(#[\SensitiveParameter] string $cleartext): string
   {
