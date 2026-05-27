@@ -31,8 +31,8 @@
     "php": ">=8.2"
   },
   "require-dev": {
-    "phpunit/php-code-coverage": "^10.1",
-    "phpunit/phpunit": "^10.5",
-    "vimeo/psalm": "^5.22.2"
+    "phpunit/php-code-coverage": "^14.1",
+    "phpunit/phpunit": "^13.1",
+    "vimeo/psalm": "^6.16"
   }
 }
