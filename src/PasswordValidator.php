@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Averay\PasswordValidator;
 
-readonly class PasswordValidator implements PasswordValidatorInterface
+final readonly class PasswordValidator implements PasswordValidatorInterface
 {
   /**
    * @param string $algorithm A password algorithm constant.
