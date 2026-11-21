@@ -2,6 +2,11 @@
   "name": "averay/password-validator",
   "type": "library",
   "description": "An object-oriented wrapper around the password_hash & password_verify functions.",
+  "homepage": "https://codeberg.org/adamaveray/password-validator",
+  "support": {
+    "issues": "https://codeberg.org/adamaveray/password-validator/issues",
+    "source": "https://codeberg.org/adamaveray/password-validator"
+  },
   "license": "MIT",
   "authors": [
     {
