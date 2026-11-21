@@ -1,3 +1,7 @@
+**This repository has been migrated to Codeberg: [codeberg.org/adamaveray/password-validator](https://codeberg.org/adamaveray/password-validator)**
+
+---
+
 # Password Validator
 
 An object-oriented wrapper around the PHP `password_hash` & `password_verify` functions, including an interface for abstraction.
